@@ -8,6 +8,8 @@ var Well = require('react-bootstrap').Well;
 
 var MainNav = require('./MainNav');
 
+var routes = require('./routes');
+
 var InterfaceComponent = React.createClass({
     componentWillMount : function() {
         this.callback = (function() {
@@ -22,7 +24,7 @@ var InterfaceComponent = React.createClass({
     render: function() {
         var nav = 0;
         var content;
-        if (this.props.router.current[0] == 'home') {
+        if (this.props.router.current[0] == routes.HOME) {
             nav = 1;
             content = (
                 <Well>
@@ -30,19 +32,27 @@ var InterfaceComponent = React.createClass({
                 </Well>
             );
         }
-        if (this.props.router.current[0] == 'notes') {
+        if (this.props.router.current[0] == routes.VENUE) {
             nav = 2;
             content = (
                 <Well>
-                    <p>TODO: replace with notes react tutorial</p>
+                    <p>TODO: details/pictures of venue</p>
                 </Well>
                 );
         }
-        if (this.props.router.current[0] == 'todos') {
+        if (this.props.router.current[0] == routes.REGISTRY) {
             nav = 3;
             content = (
                 <Well>
-                    <p>TODO: replace with todos react tutorial</p>
+                    <p>TODO: details/pictures of registry</p>
+                </Well>
+            );
+        }
+        if (this.props.router.current[0] == routes.ACCOMMODATIONS) {
+            nav = 4;
+            content = (
+                <Well>
+                    <p>TODO: details/pictures of accommodations</p>
                 </Well>
             );
         }
