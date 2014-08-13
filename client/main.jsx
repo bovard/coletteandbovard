@@ -24,11 +24,16 @@ var InterfaceComponent = React.createClass({
     render: function() {
         var nav = 0;
         var content;
+
         if (this.props.router.current[0] == routes.HOME) {
             nav = 1;
+            var imgStyle = {
+                width: "400px"
+            }
             content = (
                 <Well>
                     <p>Welcome!</p>
+                    <img style={imgStyle} src="static/images/CAB.JPG" />
                 </Well>
             );
         }
@@ -52,9 +57,17 @@ var InterfaceComponent = React.createClass({
             nav = 4;
             content = (
                 <Well>
-                    <p>TODO: details/pictures of accommodations</p>
+                    <h3>Hotel Information Coming Soon!</h3>
                 </Well>
             );
+        }
+        if (this.props.router.current[0] == routes.RSVP) {
+            nav = 5;
+            content = (
+                <Well>
+                    <h3>RSVP!</h3>
+                </Well>
+                );
         }
         return (
             <div className="content">

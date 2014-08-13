@@ -3,5 +3,6 @@ module.exports = {
     HOME: 'home',
     VENUE: 'venue',
     ACCOMMODATIONS: 'accommodations',
-    REGISTRY: 'registry'
+    REGISTRY: 'registry',
+    RSVP: 'rsvp'
 };
