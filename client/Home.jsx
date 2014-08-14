@@ -44,12 +44,12 @@ var Home = React.createClass({
                     </Col>
                     <Col md={5}  >
                         <Panel header={<h3>Her</h3>}>
-                            Colette is very smart, funny and beautiful! Colette is very smart, funny and beautiful!
+                            Hi my name is Colette and I love this guy
                         </Panel>
                     </Col>
                     <Col md={5}  mdOffset={2} >
                         <Panel header={<h3>Him</h3>}>
-                            Bovard was born in Bermuda! Bovard was born in Bermuda! Bovard was born in Bermuda!
+                            Hi my name is Bovard and I love her
                         </Panel>
                     </Col>
                 </Row>

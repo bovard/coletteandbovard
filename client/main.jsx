@@ -9,6 +9,7 @@ var Well = require('react-bootstrap').Well;
 var MainNav = require('./MainNav');
 var Home = require('./Home');
 var Venue = require('./Venue');
+var Registry = require('./Registry');
 
 var routes = require('./routes');
 
@@ -45,9 +46,7 @@ var InterfaceComponent = React.createClass({
         if (this.props.router.current[0] == routes.REGISTRY) {
             nav = 3;
             content = (
-                <Well>
-                    <p>TODO: details/pictures of registry</p>
-                </Well>
+                <Registry />
             );
         }
         if (this.props.router.current[0] == routes.ACCOMMODATIONS) {
