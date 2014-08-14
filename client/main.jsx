@@ -12,6 +12,7 @@ var Venue = require('./Venue');
 var Registry = require('./Registry');
 
 var routes = require('./routes');
+var styles = require('./styles');
 
 var InterfaceComponent = React.createClass({
     componentWillMount : function() {
@@ -79,9 +80,27 @@ var InterfaceComponent = React.createClass({
         var cursive = {
             "font-family": "'Gloria Hallelujah', cursive"
         };
+
+        var imageStyle = {
+            position: 'relative',
+            width: '100%'
+        };
+        var headingStyle = {
+            position: 'absolute',
+            top: '100px',
+            'text-align': 'center',
+            width: '100%'
+        };
         return (
             <div className="content">
-                <img width="100%" src="/static/images/MTN.JPG" />
+                <div>
+                    <img style={imageStyle} src="/static/images/MTN2.JPG" />
+                    <div style={headingStyle}>
+                        <h2 style={styles.HEADING}>Colette &amp; Bovard</h2>
+                        <h3 style={styles.HEADING}>2.28.15</h3>
+                        <h4 style={styles.HEADING}>Sacremento, CA</h4>
+                    </div>
+                </div>
                 <MainNav current={nav} />
                 <Well>
                     {content}

@@ -12,35 +12,42 @@ var TWO = "static/images/CAB2.JPG";
 var Home = React.createClass({
     getInitialState: function() {
         return {
-            left: ONE,
-            right: ONE
-        }
+            left: false,
+            right: false
+        };
     },
     enterLeft: function() {
-        this.setState({left: TWO});
+        this.setState({left: true});
     },
     exitLeft: function() {
-        this.setState({left: ONE});
+        this.setState({left: false});
     },
     enterRight: function() {
-        this.setState({right: TWO});
+        this.setState({right: true});
     },
     exitRight: function() {
-        this.setState({right: ONE});
+        this.setState({right: false});
     },
     render: function() {
         var imgStyle = {
             width: "100%",
             padding: "10px 0px 20px 0px"
         };
+        var hidden = {
+            width: "100%",
+            padding: "10px 0px 20px 0px",
+            display: 'none'
+        };
         return (
             <Grid>
                 <Row className="show-grid">
                     <Col md={5} onMouseEnter={this.enterLeft} onMouseLeave={this.exitLeft} >
-                        <img style={imgStyle} src={this.state.left} />
+                        <img style={this.state.left ? hidden : imgStyle} src={ONE} />
+                        <img style={this.state.left ? imgStyle : hidden} src={TWO} />
                     </Col>
                     <Col md={5} mdOffset={2} onMouseEnter={this.enterRight} onMouseLeave={this.exitRight} >
-                        <img style={imgStyle} src={this.state.right} />
+                        <img style={this.state.right ? hidden : imgStyle} src={ONE} />
+                        <img style={this.state.right ? imgStyle: hidden} src={TWO} />
                     </Col>
                     <Col md={5}  >
                         <Panel header={<h3>Her</h3>}>

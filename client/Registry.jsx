@@ -17,7 +17,7 @@ var Registry = React.createClass({
             <Grid>
                 <Row style={padding}>
                     <Col md={12}>
-                        <span style={styles.OXYGEN}>We have registered at Bed Bath and Beyond. Click the logo below to view our registry.</span>
+                        <span style={styles.OXYGEN}>We have registered at Bed Bath &amp; Beyond. Click the logo below to view our registry.</span>
                     </Col>
                 </Row>
                 <Row>
