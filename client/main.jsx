@@ -94,7 +94,7 @@ var InterfaceComponent = React.createClass({
         return (
             <div className="content">
                 <div>
-                    <img style={imageStyle} src="/static/images/MTN2.JPG" />
+                    <img style={imageStyle} src="/static/images/MTN2.jpg" />
                     <div style={headingStyle}>
                         <h2 style={styles.HEADING}>Colette &amp; Bovard</h2>
                         <h3 style={styles.HEADING}>2.28.15</h3>
