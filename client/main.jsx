@@ -61,7 +61,7 @@ var InterfaceComponent = React.createClass({
             nav = 5;
             content = (
                 <Well>
-                    <h3>RSVP!</h3>
+                    <h3>Coming Soon!</h3>
                 </Well>
                 );
         }
@@ -69,7 +69,7 @@ var InterfaceComponent = React.createClass({
             nav = 6;
             content = (
                 <Well>
-                    <h3>Things to do around the area</h3>
+                    <h3>Coming Soon!</h3>
                 </Well>
                 );
         }
