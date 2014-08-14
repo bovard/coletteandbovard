@@ -7,6 +7,8 @@ Backbone.$ = $;
 var Well = require('react-bootstrap').Well;
 
 var MainNav = require('./MainNav');
+var Home = require('./Home');
+var Venue = require('./Venue');
 
 var routes = require('./routes');
 
@@ -29,21 +31,16 @@ var InterfaceComponent = React.createClass({
             nav = 1;
             var imgStyle = {
                 width: "400px"
-            }
+            };
             content = (
-                <Well>
-                    <p>Welcome!</p>
-                    <img style={imgStyle} src="static/images/CAB.JPG" />
-                </Well>
+                <Home />
             );
         }
         if (this.props.router.current[0] == routes.VENUE) {
             nav = 2;
             content = (
-                <Well>
-                    <p>TODO: details/pictures of venue</p>
-                </Well>
-                );
+                <Venue />
+            );
         }
         if (this.props.router.current[0] == routes.REGISTRY) {
             nav = 3;
@@ -69,12 +66,36 @@ var InterfaceComponent = React.createClass({
                 </Well>
                 );
         }
+        if (this.props.router.current[0] == routes.AMUSEMENTS) {
+            nav = 6;
+            content = (
+                <Well>
+                    <h3>Things to do around the area</h3>
+                </Well>
+                );
+        }
+        var center = {
+            'text-align': 'center'
+        };
+        var cursive = {
+            "font-family": "'Gloria Hallelujah', cursive"
+        };
         return (
             <div className="content">
+                <img width="100%" src="/static/images/MTN.JPG" />
                 <MainNav current={nav} />
                 <Well>
                     {content}
                 </Well>
+                <div style={center}>
+                    <img width={200} src="/static/images/hearts.jpg" />
+                </div>
+                <div style={center}>
+                    <span style={cursive}>made by the groom and bride</span>
+                </div>
+                <div style={center}>
+                    <span style={cursive}>but really, who has the computer skills? :)</span>
+                </div>
             </div>
         );
     }
