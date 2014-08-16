@@ -12,13 +12,13 @@
     "url": "https://github.com/bovard/coletteandbovard"
   },
   "keywords": [
-      "google",
-      "app engine",
-      "reactjs",
-      "backbonejs",
-      "gulp",
-      "browserify",
-      "bottle"
+    "google",
+    "app engine",
+    "reactjs",
+    "backbonejs",
+    "gulp",
+    "browserify",
+    "bottle"
   ],
   "private": true,
   "bugs": {

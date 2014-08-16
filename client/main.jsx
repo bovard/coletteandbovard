@@ -58,6 +58,7 @@ var InterfaceComponent = React.createClass({
                 </Well>
             );
         }
+        /*
         if (this.props.router.current[0] == routes.RSVP) {
             nav = 5;
             content = (
@@ -66,6 +67,7 @@ var InterfaceComponent = React.createClass({
                 </Well>
                 );
         }
+        */
         if (this.props.router.current[0] == routes.AMUSEMENTS) {
             nav = 6;
             content = (

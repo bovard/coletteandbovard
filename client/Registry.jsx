@@ -23,7 +23,7 @@ var Registry = React.createClass({
                 <Row>
                     <Col md={12}>
                         <a href={url} style={styles.CENTER}>
-                            <img src="/static/images/BBB.jpg" />
+                            <img src="/static/images/3B.jpg" />
                         </a>
                     </Col>
                 </Row>
