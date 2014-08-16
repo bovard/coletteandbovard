@@ -46,50 +46,46 @@ var Venue = React.createClass({
         return (
             <Grid style={styles.OXYGEN}>
                 <Row>
-                    <Col md={3} >
+                    <Col md={3} xs={3}>
                         <Row>
-                            <Col md={6} style={center}>
-                                <a href={url}>
-                                    <img src="/static/images/viz.png" />
-                                </a>
-                            </Col>
+                            <a href={url}>
+                                <img src="/static/images/viz.png" />
+                            </a>
                         </Row>
                         <Row>
-                            <Col md={6}>
-                                <Row>
-                                    Vizcaya
-                                </Row>
-                                <Row>
-                                    2019 21st Street, Sacramento, CA 95818
-                                </Row>
-                                <Row>
-                                    916.594.9285
-                                </Row>
-                            </Col>
+                            <Row>
+                                Vizcaya
+                            </Row>
+                            <Row>
+                                2019 21st Street, Sacramento, CA 95818
+                            </Row>
+                            <Row>
+                                916.594.9285
+                            </Row>
                         </Row>
                     </Col>
-                    <Col md={6} >
+                    <Col md={6} xs={6} >
                         <Row style={padding}>
-                            <Col md={4} style={right} >
+                            <Col md={4} xs={4} style={right} >
                                 <b>Ceremony</b> 5:30 pm
                             </Col>
-                            <Col md={8}>
+                            <Col md={8} xs={8}>
                                 Will be outdoors weather permitting so bring something to keep you warm in case it is chilly
                             </Col>
                         </Row>
                         <Row style={padding}>
-                            <Col md={12} style={center}>
+                            <Col md={12} xs={12} style={center}>
                                 <b>Cocktails and hors d'oeuvres</b> to follow
                             </Col>
                         </Row>
                         <Row style={padding}>
-                            <Col md={12} style={center}>
+                            <Col md={12} xs={12} style={center}>
                                 <b>Dinner and Dancing</b> 7:00pm - 11:00 in the pavilion
                             </Col>
                         </Row>
 
                     </Col>
-                    <Col md={3} >
+                    <Col md={3} xs={3} >
                         <Map latitude={38.5645001} longitude={-121.4835314} zoom={16} width={250} height={250} points={[{latitude:38.5645001,longitude:-121.4835314,title:"Vizcaya"}]} />
                     </Col>
                 </Row>

@@ -5,6 +5,8 @@ var Grid = require('react-bootstrap').Grid;
 var Row = require('react-bootstrap').Row;
 var Col = require('react-bootstrap').Col;
 var Panel = require('react-bootstrap').Panel;
+var Carousel = require('react-bootstrap').Carousel;
+var CarouselItem = require('react-bootstrap').CarouselItem;
 
 var ONE = "static/images/CAB.JPG";
 var TWO = "static/images/CAB2.JPG";
@@ -15,18 +17,6 @@ var Home = React.createClass({
             left: false,
             right: false
         };
-    },
-    enterLeft: function() {
-        this.setState({left: true});
-    },
-    exitLeft: function() {
-        this.setState({left: false});
-    },
-    enterRight: function() {
-        this.setState({right: true});
-    },
-    exitRight: function() {
-        this.setState({right: false});
     },
     render: function() {
         var imgStyle = {
@@ -41,25 +31,60 @@ var Home = React.createClass({
         return (
             <Grid>
                 <Row className="show-grid">
-                    <Col md={5} onMouseEnter={this.enterLeft} onMouseLeave={this.exitLeft} >
-                        <img style={this.state.left ? hidden : imgStyle} src={ONE} />
-                        <img style={this.state.left ? imgStyle : hidden} src={TWO} />
+                    <Col md={2} xs={2}>
+                        <Row>
+                            <img style={{width: '100%'}} src="static/images/COWGIRL.JPG" />
+                        </Row>
+                        <Row>
+                            <img style={{width: '100%'}} src="static/images/SHOOTING.JPG" />
+                        </Row>
                     </Col>
-                    <Col md={5} mdOffset={2} onMouseEnter={this.enterRight} onMouseLeave={this.exitRight} >
-                        <img style={this.state.right ? hidden : imgStyle} src={ONE} />
-                        <img style={this.state.right ? imgStyle: hidden} src={TWO} />
+                    <Col md={8} xs={2}>
+                        <Carousel>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/CAB.JPG"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/BREW.JPG"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/COUCH2.png"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/WEDDING2.jpg"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/FLOWER2.png"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/HAIR2.png"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/OCEAN2.png"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/USPA.JPG"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/UP.JPG"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/WEDDING.JPG"/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/YELLOWSTONE.JPG"/>
+                            </CarouselItem>
+                        </Carousel>
                     </Col>
-                    <Col md={5}  >
-                        <Panel header={<h3>Her</h3>}>
-                        </Panel>
+                    <Col md={2} xs={2}>
+                        <img style={{width: '100%'}} src="static/images/BN.JPG" />
                     </Col>
-                    <Col md={5}  mdOffset={2} >
-                        <Panel header={<h3>Him</h3>}>
-                        </Panel>
+                    <Col md={2} >
+                        <img style={{width: '100%'}} src="static/images/GLASS.JPG" />
                     </Col>
                 </Row>
             </Grid>
-        );
+            );
     }
 });
 
