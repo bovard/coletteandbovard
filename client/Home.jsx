@@ -31,7 +31,7 @@ var Home = React.createClass({
         return (
             <Grid>
                 <Row className="show-grid">
-                    <Col md={2} xs={2}>
+                    <Col md={2} xs={1}>
                         <Row>
                             <img style={{width: '100%'}} src="static/images/COWGIRL.JPG" />
                         </Row>
@@ -39,7 +39,7 @@ var Home = React.createClass({
                             <img style={{width: '100%'}} src="static/images/SHOOTING.JPG" />
                         </Row>
                     </Col>
-                    <Col md={8} xs={8}>
+                    <Col md={8} xs={10}>
                         <Carousel>
                             <CarouselItem>
                                 <img width={900} height={500} alt="900x500" src="/static/images/CAR/CAB.JPG"/>
@@ -73,7 +73,7 @@ var Home = React.createClass({
                             </CarouselItem>
                         </Carousel>
                     </Col>
-                    <Col md={2} xs={2}>
+                    <Col md={2} xs={1}>
                         <Row>
                             <img style={{width: '100%'}} src="static/images/BN.JPG" />
                         </Row>
