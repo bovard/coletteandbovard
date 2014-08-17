@@ -108,7 +108,7 @@ var InterfaceComponent = React.createClass({
                     {content}
                 </Well>
                 <div style={center}>
-                    <img style={{width: '10%'}} src="/static/images/UPDOWN.JPG" />
+                    <img width={'50px'} src="/static/images/UPDOWN.JPG" />
                 </div>
                 <div style={center}>
                     <span style={cursive}>made by the groom and bride</span>
