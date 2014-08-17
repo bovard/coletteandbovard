@@ -100,7 +100,7 @@ var InterfaceComponent = React.createClass({
                     <div style={headingStyle}>
                         <h2 style={styles.HEADING}>Colette &amp; Bovard</h2>
                         <h3 style={styles.HEADING}>2.28.15</h3>
-                        <h4 style={styles.HEADING}>Sacremento, CA</h4>
+                        <h4 style={styles.HEADING}>Sacramento, CA</h4>
                     </div>
                 </div>
                 <MainNav current={nav} />
