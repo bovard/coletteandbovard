@@ -57,7 +57,10 @@ var Venue = React.createClass({
                                 Vizcaya
                             </Row>
                             <Row>
-                                2019 21st Street, Sacramento, CA 95818
+                                2019 21st Street
+                            </Row>
+                            <Row>
+                                Sacramento, CA 95818
                             </Row>
                             <Row>
                                 916.594.9285
