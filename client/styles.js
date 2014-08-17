@@ -7,6 +7,7 @@ module.exports = {
     },
     HEADING: {
         'font-family': "'Shadows Into Light', cursive",
-        color: 'white'
+        color: 'white',
+        'font-weight': 'bold'
     }
 };

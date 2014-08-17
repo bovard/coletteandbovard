@@ -5,6 +5,9 @@ var $ = require('jquery');
 Backbone.$ = $;
 
 var Well = require('react-bootstrap').Well;
+var Grid = require('react-bootstrap').Grid;
+var Row = require('react-bootstrap').Row;
+var Col = require('react-bootstrap').Col;
 
 var MainNav = require('./MainNav');
 var Home = require('./Home');
@@ -89,7 +92,7 @@ var InterfaceComponent = React.createClass({
         };
         var headingStyle = {
             position: 'absolute',
-            top: '100px',
+            top: '0px',
             'text-align': 'center',
             width: '100%'
         };
@@ -98,9 +101,19 @@ var InterfaceComponent = React.createClass({
                 <div>
                     <img style={imageStyle} src="/static/images/MTN2.jpg" />
                     <div style={headingStyle}>
-                        <h2 style={styles.HEADING}>Colette &amp; Bovard</h2>
-                        <h3 style={styles.HEADING}>2.28.15</h3>
-                        <h4 style={styles.HEADING}>Sacramento, CA</h4>
+                        <Grid>
+                            <Row>
+                                <Col md={12} xs={5} style={{'text-align': 'center'}} >
+                                    <h2 style={styles.HEADING}>Colette &amp; Bovard</h2>
+                                </Col>
+                                <Col md={12} xs={2} style={{'text-align': 'center'}} >
+                                    <h2 style={styles.HEADING}>2.28.15</h2>
+                                </Col>
+                                <Col md={12} xs={5} style={{'text-align': 'center'}} >
+                                    <h2 style={styles.HEADING}>Sacramento, CA</h2>
+                                </Col>
+                            </Row>
+                        </Grid>
                     </div>
                 </div>
                 <MainNav current={nav} />
