@@ -18,11 +18,26 @@
 
       ga('create', 'UA-53888965-1', 'auto');
       ga('send', 'pageview');
-
+    </script>
+    <script type="text/javascript">
+      var $buoop = {};
+      $buoop.ol = window.onload;
+      window.onload=function(){
+        try {if ($buoop.ol) $buoop.ol();}catch (e) {}
+        var e = document.createElement("script");
+        e.setAttribute("type", "text/javascript");
+        e.setAttribute("src", "//browser-update.org/update.js");
+        document.body.appendChild(e);
+      }
     </script>
   </head>
   <body>
     <div id="content"></div>
-    <script src="build/main.js"></script>
+    <!--[if gt IE 9 | !IE ]><!-->
+      <script src="build/main.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]><!-->
+      <h1>You are using a really old browser, please update it!</h1>
+    <![endif]-->
   </body>
 </html>
