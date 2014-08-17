@@ -48,9 +48,6 @@ var Home = React.createClass({
                                 <img width={900} height={500} alt="900x500" src="/static/images/CAR/BREW.JPG"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img width={900} height={500} alt="900x500" src="/static/images/CAR/COUCH2.png"/>
-                            </CarouselItem>
-                            <CarouselItem>
                                 <img width={900} height={500} alt="900x500" src="/static/images/CAR/WEDDING2.jpg"/>
                             </CarouselItem>
                             <CarouselItem>
