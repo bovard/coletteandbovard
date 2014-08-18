@@ -31,5 +31,5 @@ def email_us_question():
     mail.send_mail(sender="coletteandbovard.com <teebs85@gmail.com>",
               to="Bovard Tiberi <bovard.tiberi@gmail.com>, Colette Doerschuk <doerschuk.colette@gmail.com>",
               subject="Wedding Song Request",
-              body="Dear Bovard and Colette:\n I want to here the song {} by {}\n Thanks!,\n {}".format(song, artist, name)
+              body="Dear Bovard and Colette:\n I want to hear the song {} by {}\n Thanks!,\n {}".format(song, artist, name)
     )
