@@ -17,5 +17,5 @@ def email_us_question():
     mail.send_mail(sender="coletteandbovard.com <teebs85@gmail.com>",
               to="Bovard Tiberi <bovard.tiberi@gmail.com>, Colette Doerschuk <doerschuk.colette@gmail.com>",
               subject="Wedding Question",
-              body="Dear Bovard and Colette:\n {}\n Thanks!,\n {}\n{]".format(question, name, email)
+              body="Dear Bovard and Colette:\n {}\n Thanks!,\n {}\n{}".format(question, name, email)
     )
