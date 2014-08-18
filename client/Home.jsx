@@ -86,19 +86,19 @@ var Home = React.createClass({
                 <Row>
                     <Col md={8} xs={10} mdOffset={2} xsOffset={1} >
                         <Panel>
-                            <span>Welcome to our wedding webpage!</span>
+                            <span style={styles.OXYGEN}>Welcome to our wedding webpage!</span>
                             <br />
                             <br />
-                            <span>We look forward to a day full of love, and hope to see you there to celebrate this joyous day with us. Our wedding will take place in Sacramento where Colette's parents (as of very recently) live. Although it will not be extremely hot this time of year, we hope the 50-70 degree weather will give most of you a break from the freezing temperatures you will be arriving from.</span>
+                            <span style={styles.OXYGEN}>We look forward to a day full of love, and hope to see you there to celebrate this joyous day with us. Our wedding will take place in Sacramento where Colette's parents (as of very recently) live. Although it will not be extremely hot this time of year, we hope the 50-70 degree weather will give most of you a break from the freezing temperatures you will be arriving from.</span>
                             <br />
                             <br />
-                            <span>We met back in 2009 during Peace Corps training. We both served in Burkina Faso as Peace Corps Volunteers from 2009-2011. We are both so happy to have had such an incredible experience living in Burkina Faso and making lifelong friends as well meeting our future husband/wife! A bonus- Mikey Berino, a dear fellow Peace Corps Volunteer from our Burkina Faso service, will be performing our wedding ceremony!</span>
+                            <span style={styles.OXYGEN}>We met back in 2009 during Peace Corps training. We both served in Burkina Faso as Peace Corps Volunteers from 2009-2011. We are both so happy to have had such an incredible experience living in Burkina Faso and making lifelong friends as well meeting our future husband/wife! A bonus- Mikey Berino, a dear fellow Peace Corps Volunteer from our Burkina Faso service, will be performing our wedding ceremony!</span>
                             <br />
                             <br />
-                            <span>Hopefully this website will answer some of your questions about the wedding, but if you have any questions/comments/concerns please <a href={"#" + routes.QUESTION} >send us a question</a></span>
+                            <span style={styles.OXYGEN}>Hopefully this website will answer some of your questions about the wedding, but if you have any questions/comments/concerns please <a href={"#" + routes.QUESTION} >send us a question</a></span>
                             <br />
                             <br />
-                            <span>Colette and Bovard</span>
+                            <span style={styles.OXYGEN}>Colette and Bovard</span>
                         </Panel>
                     </Col>
                 </Row>
