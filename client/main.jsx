@@ -13,6 +13,7 @@ var MainNav = require('./MainNav');
 var Home = require('./Home');
 var Venue = require('./Venue');
 var Registry = require('./Registry');
+var Question = require('./Question');
 
 var routes = require('./routes');
 var styles = require('./styles');
@@ -79,6 +80,13 @@ var InterfaceComponent = React.createClass({
                 </Well>
                 );
         }
+        if (this.props.router.current[0] == routes.QUESTION) {
+            console.log("QUESTION");
+            content = (
+                <Question />
+            );
+        }
+
         var center = {
             'text-align': 'center'
         };

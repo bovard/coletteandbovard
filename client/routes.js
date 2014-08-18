@@ -5,5 +5,6 @@ module.exports = {
     ACCOMMODATIONS: 'accommodations',
     REGISTRY: 'registry',
     RSVP: 'rsvp',
-    AMUSEMENTS: 'amusements'
+    AMUSEMENTS: 'amusements',
+    QUESTION: 'question'
 };
