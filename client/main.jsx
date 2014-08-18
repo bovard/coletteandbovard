@@ -13,6 +13,7 @@ var MainNav = require('./MainNav');
 var Home = require('./Home');
 var Venue = require('./Venue');
 var Registry = require('./Registry');
+var Song = require('./Song');
 var Question = require('./Question');
 
 var routes = require('./routes');
@@ -81,9 +82,13 @@ var InterfaceComponent = React.createClass({
                 );
         }
         if (this.props.router.current[0] == routes.QUESTION) {
-            console.log("QUESTION");
             content = (
                 <Question />
+            );
+        }
+        if (this.props.router.current[0] == routes.SONG_REQUEST) {
+            content = (
+                <Song />
             );
         }
 

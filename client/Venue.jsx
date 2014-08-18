@@ -12,6 +12,7 @@ var Button = require('react-bootstrap').Button;
 
 var Map = require('./Map');
 var styles = require('./styles');
+var routes = require('./routes');
 
 
 var SongRequest = React.createClass({
@@ -84,6 +85,11 @@ var Venue = React.createClass({
                         <Row style={padding}>
                             <Col md={12} xs={12} style={center}>
                                 <b>Dinner and Dancing</b> 7:00pm - 11:00 in the pavilion
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md={12} xs={12} style={center}>
+                                <i>Know a good song to dance to? Click <a href={'#' + routes.SONG_REQUEST} >here</a> to request a song!</i>
                             </Col>
                         </Row>
 

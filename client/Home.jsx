@@ -95,7 +95,7 @@ var Home = React.createClass({
                             <span style={styles.OXYGEN}>We met back in 2009 during Peace Corps training. We both served in Burkina Faso as Peace Corps Volunteers from 2009-2011. We are both so happy to have had such an incredible experience living in Burkina Faso and making lifelong friends as well meeting our future husband/wife! A bonus- Mikey Berino, a dear fellow Peace Corps Volunteer from our Burkina Faso service, will be performing our wedding ceremony!</span>
                             <br />
                             <br />
-                            <span style={styles.OXYGEN}>Hopefully this website will answer some of your questions about the wedding. Please do not hesitate to ask us a question or send us a note by clicking <a href={"#" + routes.QUESTION} >here</a></span>
+                            <span style={styles.OXYGEN}>Hopefully this website will answer some of your questions about the wedding. Please do not hesitate to ask us a question or send us a note by clicking <a href={"#" + routes.QUESTION} >here</a> :)</span>
                             <br />
                             <br />
                             <span style={styles.OXYGEN}>Colette and Bovard</span>

@@ -6,5 +6,6 @@ module.exports = {
     REGISTRY: 'registry',
     RSVP: 'rsvp',
     AMUSEMENTS: 'amusements',
-    QUESTION: 'question'
+    QUESTION: 'question',
+    SONG_REQUEST: 'request'
 };
