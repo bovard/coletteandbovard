@@ -9,6 +9,7 @@ var Carousel = require('react-bootstrap').Carousel;
 var CarouselItem = require('react-bootstrap').CarouselItem;
 
 var routes = require('./routes');
+var styles = require('./styles');
 
 var ONE = "static/images/CAB.JPG";
 var TWO = "static/images/CAB2.JPG";
@@ -95,6 +96,9 @@ var Home = React.createClass({
                             <br />
                             <br />
                             <span>Hopefully this website will answer some of your questions about the wedding, but if you have any questions/comments/concerns please <a href={"#" + routes.QUESTION} >send us a question</a></span>
+                            <br />
+                            <br />
+                            <span>Colette and Bovard</span>
                         </Panel>
                     </Col>
                 </Row>

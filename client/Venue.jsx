@@ -73,7 +73,7 @@ var Venue = React.createClass({
                                 <b>Ceremony</b> 5:30 pm
                             </Col>
                             <Col md={8} xs={8}>
-                                Will be outdoors weather permitting so bring something to keep you warm in case it is chilly
+                                Will be outdoors on the east patio, weather permitting so bring something to keep you warm in case it is chilly
                             </Col>
                         </Row>
                         <Row style={padding}>
