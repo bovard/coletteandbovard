@@ -50,7 +50,7 @@ var Venue = React.createClass({
                     <Col md={3} xs={3}>
                         <Row>
                             <a href={url}>
-                                <img src="/static/images/viz.png" />
+                                <img width={"80%"} src="/static/images/viz.png" />
                             </a>
                         </Row>
                         <Row>
