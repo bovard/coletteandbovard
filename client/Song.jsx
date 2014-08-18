@@ -11,15 +11,15 @@ var Song = React.createClass({
     handleSubmit: function() {
         var name = this.refs.name.getValue().trim();
         var song = this.refs.song.getValue().trim();
-        var message = this.refs.message.getValue().trim();
+        var artist = this.refs.artist.getValue().trim();
         var package = {
             name: name.trim(),
             song: song.trim(),
-            message: message.trim()
+            artist: artist.trim()
         };
         this.refs.name.getInputDOMNode().value='';
         this.refs.song.getInputDOMNode().value='';
-        this.refs.message.getInputDOMNode().value='';
+        this.refs.artist.getInputDOMNode().value='';
         this.setState({submitted: true});
 
         $.ajax({
@@ -65,17 +65,17 @@ var Song = React.createClass({
                 />
                 <Input
                     type="text"
-                    label="Song Title / Artist"
+                    label="Song Title"
                     ref="song"
-                    placeholder="Banana Phone by Raffi"
+                    placeholder="eg Banana Phone"
                     labelClassName="col-xs-2"
                     wrapperClassName="col-xs-10"
                 />
                 <Input
-                    type="textarea"
-                    label="Message"
-                    ref="message"
-                    placeholder="Why you like it / what it means to you / 'Hi!'"
+                    type="text"
+                    label="Artist"
+                    ref="artist"
+                    placeholder="eg Raffi"
                     labelClassName="col-xs-2"
                     wrapperClassName="col-xs-10"
                 />

@@ -26,10 +26,10 @@ def email_us_question():
     data = request.json
     name = data.get('name')
     song = data.get('song')
-    message = data.get('message')
+    artist = data.get('artist')
 
     mail.send_mail(sender="coletteandbovard.com <teebs85@gmail.com>",
               to="Bovard Tiberi <bovard.tiberi@gmail.com>, Colette Doerschuk <doerschuk.colette@gmail.com>",
               subject="Wedding Song Request",
-              body="Dear Bovard and Colette:\n I want to here the song {}\n {}\n Thanks!,\n {}".format(song, message, name)
+              body="Dear Bovard and Colette:\n I want to here the song {} by {}\n Thanks!,\n {}".format(song, artist, name)
     )

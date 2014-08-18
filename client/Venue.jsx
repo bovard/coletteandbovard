@@ -82,7 +82,7 @@ var Venue = React.createClass({
                                 <b>Cocktails and hors d'oeuvres</b> to follow
                             </Col>
                         </Row>
-                        <Row style={padding}>
+                        <Row style={{padding: '0px 0px 70px 0px'}}>
                             <Col md={12} xs={12} style={center}>
                                 <b>Dinner and Dancing</b> 7:00pm - 11:00 in the pavilion
                             </Col>
