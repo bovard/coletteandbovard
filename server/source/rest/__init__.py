@@ -21,7 +21,7 @@ def email_us_question():
     )
 
 
-@post('/question')
+@post('/song')
 def email_us_question():
     data = request.json
     name = data.get('name')
