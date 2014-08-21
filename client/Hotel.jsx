@@ -47,8 +47,8 @@ var Hotel = React.createClass({
     render: function() {
         var hotel1Info = (
             <div>
-                 <span style={styles.OXYGEN}>Normal room rates begin at $109/night plus tax. Book early for the best rate- they will only increase as hotel gains occupancy.<br />*There is a book early rate of 20% off with rates starting at $87/night (stipulation is that you pay in full at the time you book and there are NO refunds. You must book online to find this rate)- this is only available for a limited amount of time*</span><br /><br />
-                 <span style={styles.OXYGEN}>"The hotel features a bistro/bar, a heated outdoor pool, fitness center, and parking for $8/night. It is 2 miles from Vizcaya and you can easily catch a cab to/from the wedding. It is quick and easy to drive/park at local places that may interest you in Sacramento. This hotel has been recently renovated and will hopefully give you a big bang for your buck!</span><br /><br />
+                 <span style={styles.OXYGEN}>Room rates begin at $109/night. Book early for the best rate- they will only increase as hotel gains occupancy.<br />*There is a book early rate of 20% off with rates starting at $87/night (stipulation is that you pay in full at the time you book and there are NO refunds. You must book online to find this rate)- this is only available for a limited amount of time*</span><br /><br />
+                 <span style={styles.OXYGEN}>The hotel features a bistro/bar, a heated outdoor pool, fitness center, and parking for $8/night. It is 2 miles from Vizcaya and you can easily catch a cab to/from the wedding. It is quick and easy to drive/park at local places that may interest you in Sacramento. This hotel has been recently renovated and will hopefully give you a big bang for your buck!</span><br /><br />
             </div>
         );
         hotel1 = (<HotelEntry
