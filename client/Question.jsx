@@ -75,7 +75,7 @@ var Question = React.createClass({
                     type="textarea"
                     label="Question"
                     ref="question"
-                    placeholder="Your question here!"
+                    placeholder="What is your address?"
                     labelClassName="col-xs-2"
                     wrapperClassName="col-xs-10"
                 />

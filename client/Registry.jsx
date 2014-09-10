@@ -20,11 +20,16 @@ var Registry = React.createClass({
                         <span style={styles.OXYGEN}>We have registered at Bed Bath &amp; Beyond. Click the logo below to view our registry.</span>
                     </Col>
                 </Row>
-                <Row>
+                <Row style={padding}>
                     <Col md={12}>
                         <a href={url} style={styles.CENTER}>
                             <img src="/static/images/3B.jpg" />
                         </a>
+                    </Col>
+                </Row>
+                <Row style={padding}>
+                    <Col md={12}>
+                        <span style={styles.OXYGEN}>Bed Bath &amp; Beyond will typically ship wedding gifts free of charge (our address is on file with our registry). It will be extremely helpful to have any gifts shipped since we will also be traveling via plane to the wedding celebration. If you need our address for shipping reasons please click <a href="/#question">here</a> and we will get it to you as soon as possible!</span>
                     </Col>
                 </Row>
             </Grid>
