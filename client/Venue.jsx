@@ -14,6 +14,10 @@ var Map = require('./Map');
 var styles = require('./styles');
 var routes = require('./routes');
 
+var NOTES = 'static/images/notes.png';
+var NOTES_STYLE = {
+    width: '20px'
+};
 
 var SongRequest = React.createClass({
     render: function() {
@@ -89,7 +93,7 @@ var Venue = React.createClass({
                         </Row>
                         <Row>
                             <Col md={12} xs={12} style={center}>
-                                <i>Know a good song to dance to? Click <a href={'#' + routes.SONG_REQUEST} >here</a> to request a song!</i>
+                                <img src={NOTES} style={NOTES_STYLE} />  <i>Know a good song to dance to? Click <a href={'#' + routes.SONG_REQUEST} >here</a> to request a song!</i>  <img src={NOTES} style={NOTES_STYLE} />
                             </Col>
                         </Row>
 
