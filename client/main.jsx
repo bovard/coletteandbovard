@@ -9,6 +9,7 @@ var Grid = require('react-bootstrap').Grid;
 var Row = require('react-bootstrap').Row;
 var Col = require('react-bootstrap').Col;
 
+var Amusements = require('./Amusements');
 var Home = require('./Home');
 var Hotel = require('./Hotel');
 var MainNav = require('./MainNav');
@@ -62,21 +63,11 @@ var InterfaceComponent = React.createClass({
                 <Hotel />
             );
         }
-        /*
-        if (this.props.router.current[0] == routes.RSVP) {
-            nav = 5;
-            content = (
-                <Well>
-                    <h3>Coming Soon!</h3>
-                </Well>
-                );
-        }
-        */
         if (this.props.router.current[0] == routes.AMUSEMENTS) {
             nav = 6;
             content = (
                 <Well>
-                    <h3>Coming Soon!</h3>
+                    <Amusements />
                 </Well>
                 );
         }

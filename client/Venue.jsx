@@ -71,10 +71,10 @@ var Venue = React.createClass({
                     <Col md={6} xs={6} >
                         <Row style={padding}>
                             <Col md={4} xs={4} style={right} >
-                                <b>Ceremony</b> 5:30 pm
+                                <b>Ceremony</b> 5:00 pm
                             </Col>
                             <Col md={8} xs={8}>
-                                Will be outdoors on the east patio (weather permitting) so bring something to keep you warm in case it is chilly
+                                The ceremony will begin at 5:30 sharp. Guests may begin arriving at 5pm. It will take place outdoors on the east patio (weather permitting) so bring something to keep you warm in case it is chilly
                             </Col>
                         </Row>
                         <Row style={padding}>
