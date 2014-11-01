@@ -36,6 +36,9 @@ var MainNav = React.createClass({
                     <NavItem key={6} href={"#" + routes.AMUSEMENTS}>
                         <span style={fontStyle}>Attractions</span>
                     </NavItem>
+                    <NavItem key={7} href={"#" + routes.MENU}>
+                        <span style={fontStyle}>Menu</span>
+                    </NavItem>
                 </Nav>
             </Navbar>
         );

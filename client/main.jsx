@@ -71,6 +71,7 @@ var InterfaceComponent = React.createClass({
             content = (<Song />);
         }
         else if (this.props.router.current[0] === routes.MENU) {
+            nav = 7;
             content = (<Menu />);
         }
 
@@ -94,7 +95,7 @@ var InterfaceComponent = React.createClass({
         return (
             <div className="content">
                 <div>
-                    <img style={imageStyle} src="/static/images/MTN2.jpg" />
+                    <img style={imageStyle} src="/static/images/LAKE.JPG" />
                     <div style={headingStyle}>
                         <Grid>
                             <Row>

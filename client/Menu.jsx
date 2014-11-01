@@ -31,55 +31,38 @@ var Menu = React.createClass({
         return (
             <Grid style={styles.OXYGEN}>
                 <Row>
-                    <Col md={3} xs={3}>
-                        <Row>
-                            <a href={url}>
-                                <img width={"80%"} src="/static/images/viz.png" />
-                            </a>
-                        </Row>
-                        <Row>
-                            <Row>
-                            Vizcaya
-                            </Row>
-                            <Row>
-                            2019 21st Street
-                            </Row>
-                            <Row>
-                            Sacramento, CA 95818
-                            </Row>
-                            <Row>
-                            916.594.9285
-                            </Row>
-                        </Row>
-                    </Col>
-                    <Col md={6} xs={6} >
+                    <Col md={6} mdOffset={3} xs={12} >
                         <Row style={padding}>
                             <Col md={4} xs={4} style={right} >
-                                <b>Ceremony</b> 5:00 pm
+                                <b>Vegetarian </b>
                             </Col>
                             <Col md={8} xs={8}>
-                            The ceremony will begin at 5:30 sharp. Guests may begin arriving at 5pm. It will take place outdoors on the east patio (weather permitting) so bring something to keep you warm in case it is chilly
+                                 <b>Eggplant Napoleon</b> Eggplant, Roasted Red Bell Peppers and Zucchini, fresh Buffalo Mozzarella
                             </Col>
                         </Row>
                         <Row style={padding}>
-                            <Col md={12} xs={12} style={center}>
-                                <b>Cocktails and hors d'oeuvres</b> to follow
+                            <Col md={4} xs={4} style={right} >
+                                <b>Chicken</b>
+                            </Col>
+                            <Col md={8} xs={8}>
+                                <b>Roasted Breast of Chicken</b> with Lemon and Thyme
                             </Col>
                         </Row>
-                        <Row style={{padding: '0px 0px 70px 0px'}}>
-                            <Col md={12} xs={12} style={center}>
-                                <b>Dinner and Dancing</b> 7:00pm - 11:00 in the pavilion
+                        <Row style={padding}>
+                            <Col md={4} xs={4} style={right} >
+                                <b>Beef</b>
+                            </Col>
+                            <Col md={8} xs={8}>
+                                <b>Horseradish Crusted Beef Sirloin </b> with Garlic and Thyme Butter
                             </Col>
                         </Row>
                         <Row>
                             <Col md={12} xs={12} style={center}>
-                                <img src={NOTES} style={NOTES_STYLE} />  <i>Know a good song to dance to? Click <a href={'#' + routes.SONG_REQUEST} >here</a> to request a song!</i>  <img src={NOTES} style={NOTES_STYLE} />
+                                There will be a kids meal available for children ages 3-12 <br />
+                                (Chicken fingers, french fries, and fruit) <br />
+                                (Please indicate on your RSVP card if you need any kid's meals)
                             </Col>
                         </Row>
-
-                    </Col>
-                    <Col md={3} xs={3} >
-                        <Map latitude={38.5645001} longitude={-121.4835314} zoom={16} width={250} height={250} points={[{latitude:38.5645001,longitude:-121.4835314,title:"Vizcaya"}]} />
                     </Col>
                 </Row>
             </Grid>
