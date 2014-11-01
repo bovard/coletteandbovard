@@ -4,6 +4,7 @@ module.exports = {
     VENUE: 'venue',
     ACCOMMODATIONS: 'accommodations',
     REGISTRY: 'registry',
+    MENU: 'menu',
     RSVP: 'rsvp',
     AMUSEMENTS: 'amusements',
     QUESTION: 'question',

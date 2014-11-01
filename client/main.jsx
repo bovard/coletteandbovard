@@ -13,6 +13,7 @@ var Amusements = require('./Amusements');
 var Home = require('./Home');
 var Hotel = require('./Hotel');
 var MainNav = require('./MainNav');
+var Menu = require('./Menu');
 var Question = require('./Question');
 var Registry = require('./Registry');
 var Song = require('./Song');
@@ -41,29 +42,21 @@ var InterfaceComponent = React.createClass({
             var imgStyle = {
                 width: "400px"
             };
-            content = (
-                <Home />
-            );
+            content = (<Home />);
         }
-        if (this.props.router.current[0] == routes.VENUE) {
+        else if (this.props.router.current[0] == routes.VENUE) {
             nav = 2;
-            content = (
-                <Venue />
-            );
+            content = (<Venue />);
         }
-        if (this.props.router.current[0] == routes.REGISTRY) {
+        else if (this.props.router.current[0] == routes.REGISTRY) {
             nav = 3;
-            content = (
-                <Registry />
-            );
+            content = (<Registry />);
         }
-        if (this.props.router.current[0] == routes.ACCOMMODATIONS) {
+        else if (this.props.router.current[0] == routes.ACCOMMODATIONS) {
             nav = 4;
-            content = (
-                <Hotel />
-            );
+            content = (<Hotel />);
         }
-        if (this.props.router.current[0] == routes.AMUSEMENTS) {
+        else if (this.props.router.current[0] == routes.AMUSEMENTS) {
             nav = 6;
             content = (
                 <Well>
@@ -71,15 +64,14 @@ var InterfaceComponent = React.createClass({
                 </Well>
                 );
         }
-        if (this.props.router.current[0] == routes.QUESTION) {
-            content = (
-                <Question />
-            );
+        else if (this.props.router.current[0] == routes.QUESTION) {
+            content = (<Question />);
         }
-        if (this.props.router.current[0] == routes.SONG_REQUEST) {
-            content = (
-                <Song />
-            );
+        else if (this.props.router.current[0] == routes.SONG_REQUEST) {
+            content = (<Song />);
+        }
+        else if (this.props.router.current[0] === routes.MENU) {
+            content = (<Menu />);
         }
 
         var center = {
