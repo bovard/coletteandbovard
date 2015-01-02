@@ -78,17 +78,22 @@ var Venue = React.createClass({
                                 <b>Ceremony</b> 5:00 pm
                             </Col>
                             <Col md={8} xs={8}>
-                                The ceremony will begin at 5:30 sharp. Guests may begin arriving at 5pm. It will take place outdoors on the east patio (weather permitting) so bring something to keep you warm in case it is chilly
+                                The ceremony will begin at 5:30 sharp. Guests may begin arriving at 5pm. It will take place outdoors on the east patio so bring something to keep you warm!
                             </Col>
                         </Row>
                         <Row style={padding}>
                             <Col md={12} xs={12} style={center}>
-                                <b>Cocktails and hors d'oeuvres</b> to follow
+                                <b>Drinks and hors d'oeuvres</b> to follow
                             </Col>
                         </Row>
                         <Row style={{padding: '0px 0px 70px 0px'}}>
                             <Col md={12} xs={12} style={center}>
                                 <b>Dinner and Dancing</b> 7:00pm - 11:00 in the pavilion
+                            </Col>
+                        </Row>
+                        <Row style={{padding: '0px 0px 70px 0px'}}>
+                            <Col md={12} xs={12} style={center}>
+                                <i>We recommend grabbing a cab to get to the wedding, it should cost around $15 with tip. There is limited parking and this way the taxi driver can be your designated driver!</i>
                             </Col>
                         </Row>
                         <Row>
