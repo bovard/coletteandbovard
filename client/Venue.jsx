@@ -93,7 +93,9 @@ var Venue = React.createClass({
                         </Row>
                         <Row style={{padding: '0px 0px 70px 0px'}}>
                             <Col md={12} xs={12} style={center}>
-                                <i>We recommend grabbing a cab to get to the wedding, it should cost around $15 with tip. There is limited parking and this way the taxi driver can be your designated driver!</i>
+                                <div style={{'border-style': 'solid', 'border-width': '1px'}}>
+                                    <i>We recommend taking a cab to the wedding, it should cost around $15 with tip. There is limited parking and this way the taxi driver can be your designated driver!</i>
+                                </div>
                             </Col>
                         </Row>
                         <Row>
