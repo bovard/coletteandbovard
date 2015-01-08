@@ -77,7 +77,7 @@ var interests = [
         title: 'Amador County Wine Country',
         imgUrl: 'static/images/amusements/amador.jpg',
         url: 'http://www.amadorwine.com/',
-        desc: "Amador County wine country is a refreshing discovery for those with a fascination for wine.",
+        desc: "Amador County wine country is a collection of wineries just to the East of Sacramento.",
         map: 'http://www.amadorwine.com/visit-us/map-directions/',
         price: '$$'
     },
@@ -85,7 +85,7 @@ var interests = [
         title: 'Placer Country Wine Country',
         imgUrl: 'static/images/amusements/placer.jpg',
         url: 'http://www.placerwine.com/',
-        desc: "The Placer County Wine Trail is a rustic wine escape within a stone's throw to city life.",
+        desc: "The Placer County Wine Trail is a series of wineries just outside Sacramento .",
         map: 'http://www.placerwine.com/assets/placer_wine_trail.pdf',
         price: '$$'
     }
