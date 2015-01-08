@@ -47,7 +47,7 @@ var interests = [
         url: 'http://www.trickponypizza.com/',
         desc: "Colette and her mom enjoyed a delicious wood-fired pizza at Trick Pony over the holidays!",
         map: 'https://www.google.com/maps/place/2534+Industrial+Blvd+%23110,+West+Sacramento,+CA+95691/@38.5660149,-121.5434754,17z/data=!3m1!4b1!4m2!3m1!1s0x809ad3f9467567e1:0x615ec81bd94247fc',
-        price: '$$'
+        price: '$'
     },
     {
         title: 'Biba Restaurant',
@@ -63,7 +63,7 @@ var interests = [
         url: 'http://bikedogbrewing.com/',
         desc: "Colette's parents said the beer here was great and the brewery had a fun atmosphere! There are rotating food trucks that park next to the brewery if you want some food with your beer.",
         map: '',
-        price: '$$'
+        price: '$'
     },
     {
         title: 'Jackrabbit Brewing',
