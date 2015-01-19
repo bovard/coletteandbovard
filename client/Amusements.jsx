@@ -62,7 +62,7 @@ var interests = [
         imgUrl: 'static/images/amusements/bikedog.png',
         url: 'http://bikedogbrewing.com/',
         desc: "Colette's parents said the beer here was great and the brewery had a fun atmosphere! There are rotating food trucks that park next to the brewery if you want some food with your beer.",
-        map: '',
+        map: 'https://www.google.com/maps/place/Bike+Dog+Brewing+Company/@38.566174,-121.543357,15z/data=!4m2!3m1!1s0x0:0x757abf5b116454e0',
         price: '$'
     },
     {
@@ -74,19 +74,19 @@ var interests = [
         price: '$$'
     },
     {
-        title: 'Amador County Wine Country',
-        imgUrl: 'static/images/amusements/amador.jpg',
-        url: 'http://www.amadorwine.com/',
-        desc: "Amador County wine country is a collection of wineries just to the East of Sacramento.",
-        map: 'http://www.amadorwine.com/visit-us/map-directions/',
-        price: '$$'
-    },
-    {
         title: 'Placer Country Wine Country',
         imgUrl: 'static/images/amusements/placer.jpg',
         url: 'http://www.placerwine.com/',
         desc: "The Placer County Wine Trail is a series of wineries just outside Sacramento .",
         map: 'http://www.placerwine.com/assets/placer_wine_trail.pdf',
+        price: '$$'
+    },
+    {
+        title: 'Amador County Wine Country',
+        imgUrl: 'static/images/amusements/amador.jpg',
+        url: 'http://www.amadorwine.com/',
+        desc: "Amador County wine country is a collection of wineries about an hour East of Sacramento.",
+        map: 'http://www.amadorwine.com/visit-us/map-directions/',
         price: '$$'
     }
 ];
