@@ -10,6 +10,7 @@ var Row = require('react-bootstrap').Row;
 var Col = require('react-bootstrap').Col;
 
 var Amusements = require('./Amusements');
+var Counter = require('./Counter');
 var Home = require('./Home');
 var Hotel = require('./Hotel');
 var MainNav = require('./MainNav');
@@ -125,6 +126,10 @@ var InterfaceComponent = React.createClass({
                 <div style={center}>
                     <span style={cursive}>but really, who has the computer skills? :)</span>
                 </div>
+                <div style={center}>
+                    <Counter style={cursive} />
+                </div>
+
             </div>
         );
     }

@@ -42,6 +42,22 @@ var Interest = React.createClass({
 
 var interests = [
     {
+        title: 'Placer Country Wine Country',
+        imgUrl: 'static/images/amusements/placer.jpg',
+        url: 'http://www.placerwine.com/',
+        desc: "The Placer County Wine Trail is a series of wineries just outside Sacramento .",
+        map: 'http://www.placerwine.com/assets/placer_wine_trail.pdf',
+        price: '$$'
+    },
+    {
+        title: 'Sacramento Beer Week',
+        imgUrl: 'static/images/amusements/SBW.jpg',
+        url: 'http://www.sacramentobeerweek.com/beer-fests.html',
+        desc: "All week there are events going on at local breweries!",
+        map: 'http://www.hopstotable.com/unique-events/',
+        price: '$$'
+    },
+    {
         title: 'Trick Pony',
         imgUrl: 'static/images/amusements/trickpony.00_png_srz',
         url: 'http://www.trickponypizza.com/',
@@ -74,19 +90,19 @@ var interests = [
         price: '$$'
     },
     {
-        title: 'Placer Country Wine Country',
-        imgUrl: 'static/images/amusements/placer.jpg',
-        url: 'http://www.placerwine.com/',
-        desc: "The Placer County Wine Trail is a series of wineries just outside Sacramento .",
-        map: 'http://www.placerwine.com/assets/placer_wine_trail.pdf',
-        price: '$$'
-    },
-    {
         title: 'Amador County Wine Country',
         imgUrl: 'static/images/amusements/amador.jpg',
         url: 'http://www.amadorwine.com/',
         desc: "Amador County wine country is a collection of wineries about an hour East of Sacramento.",
         map: 'http://www.amadorwine.com/visit-us/map-directions/',
+        price: '$$'
+    },
+    {
+        title: 'Sacramento Brewers Showcase',
+        imgUrl: 'static/images/amusements/SBS.jpg',
+        url: 'http://www.calautomuseum.org/event/sac-beer-week/',
+        desc: "Feb 26th @ 5:30 - 9:00 taste beers from over 30 local breweries",
+        map: 'http://www.calautomuseum.org/event/sac-beer-week/',
         price: '$$'
     }
 ];
