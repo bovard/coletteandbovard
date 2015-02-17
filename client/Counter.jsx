@@ -22,7 +22,7 @@ module.exports = React.createClass({
     render: function() {
         var text = "See you in " + this.state.time;
         if (moment().isAfter(moment(weddingDate))) {
-            text = "Happily married for " + this.state.time
+            text = "Happily married for " + this.state.time;
         }
         return (
             <h3 style={this.props.style}>{text}</h3>

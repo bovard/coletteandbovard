@@ -118,6 +118,9 @@ var InterfaceComponent = React.createClass({
                     {content}
                 </Well>
                 <div style={center}>
+                    <Counter style={cursive} />
+                </div>
+                <div style={center}>
                     <img width={'50px'} src="/static/images/UPDOWN.JPG" />
                 </div>
                 <div style={center}>
@@ -125,9 +128,6 @@ var InterfaceComponent = React.createClass({
                 </div>
                 <div style={center}>
                     <span style={cursive}>but really, who has the computer skills? :)</span>
-                </div>
-                <div style={center}>
-                    <Counter style={cursive} />
                 </div>
 
             </div>
